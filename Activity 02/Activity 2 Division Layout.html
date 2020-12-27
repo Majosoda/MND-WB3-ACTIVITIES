@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML DIV LAYOUT</title>
+	<style type="text/css">
+		.header {
+			background-color: rgb(192,192,192);
+			width: 100%;
+			height: 255px;
+			background-image: url("TWICEheader.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 700px;
+		}
+		.leftcorner {
+			background-color: rgb(192,192,192);
+			height: 600px;
+			width: 15%;
+			float: left;
+			font-color: black;
+		}
+		.rightcorner {
+			background-color: rgb(192,192,192);
+			height: 600px;
+			width: 15%;
+			float: right;
+		}
+		.content {
+			background-color: rgb(192,192,192);
+			height: 600px;
+			width: 70%;
+			float: left;
+			font-family: "times new roman";
+		}
+		.footer {
+			background-color: violet;
+			width: 100%;
+			height: 25px;
+			clear: both;
+		}	
+	</style>
+</head>
+<body background="twicebg.jpg">
+	<div class="header">
+		<img src="ONCElogo.png" style="width:310px;height:200px;margin-top:7px">
+		<img src="TWICElogo.png" style=" width:300px;height:250px;float:right; margin-top:0px">
+	</div>
+	<div class="leftcorner">
+		<form method="POST">
+				Name: <input type="text" name="txt1" placeholder="Full Name"> <br>
+				Password: <input type="password" name="pass1"><br>
+			</tr>
+		<table>
+			<tr>
+				<td colspan="2"><left><h2>Who is your BIAS:</h2></left></td>
+			</tr>
+			<tr>
+				<td style="color: black"><left><input type="radio" name="rad1" value="on">Jihyo (지효)</left></td>
+			</tr>
+			<tr>
+				<td style="color: black"><left><input type="radio" name="rad1" value="on">Nayeon (나연)</left></td>
+			</tr>
+			<tr>
+				<td style="color: black"><left><input type="radio" name="rad1" value="on">Jeongyeon (정연)</left></td>
+			</tr>
+			<tr>
+				<td style="color: black"><left><input type="radio" name="rad1" value="on">Momo (모모)</left></td>
+			</tr>
+			<tr>
+				<td style="color: black"><left><input type="radio" name="rad1" value="on">Sana (사나)</left></td>
+			</tr>
+			<tr>
+				<td style="color: black"><left><input type="radio" name="rad1" value="on">Mina (미나)</left></td>
+			</tr>
+			<tr>
+				<td style="color: black"><left><input type="radio" name="rad1" value="on">Chaeyoung (채영)</left></td>
+			</tr>
+			<tr>
+				<td style="color: black"><left><input type="radio" name="rad1" value="on">Tzuyu (쯔위)</left></td>
+			</tr>
+			<tr>
+				<td style="color: black"><left><input type="radio" name="rad1" value="on">Jihyo (지효)</left></td>
+			</tr>
+			<tr>
+				<td style="color: black"><left><input type="submit" name="submit" value="submit "></left></td>
+			</tr>
+		</table>
+	</div>	
+	<div class="content">
+		<table align="center" border="0">
+			<tr align="center" height="40" style="color: black">
+				<td colspan="3">
+					<center><h1>Twice Members</h1></center>
+				</td>
+			</tr>
+						<tr align="center" height="50" style="color: black">
+				<td><a href="#"><img src="Chaeyoung.jpeg" style="width:200px;height:140px;"></a></td>
+				<td><a href="#"><img src="Tzuyu.jpeg" style="width:200px;height:140px;"></a></td>
+				<td><a href="#"><img src="Mina.jpeg" style="width:200px;height:140px;"></a></td>
+			</tr>
+			<tr align="center" style="color: black">
+				<td width="300" bgcolor="pink"><b>CHAEYOUNG</b></td>
+				<td width="300" bgcolor="pink"><b>TZUYU</b></td>
+				<td width="300" bgcolor="pink"><b>MINA</b></td>
+			</tr>
+			<tr align="center" height="50" style="color: black">
+				<td><a href="#"><img src="Jihyo.jpg" style="width:200px;height:140px;"></a></td>
+				<td><a href="#"><img src="Momo.jpeg" style="width:200px;height:140px;"></a></td>
+				<td><a href="#"><img src="Jeongyeon.jpeg" style="width:200px;height:140px;"></a></td>
+			</tr>
+			<tr align="center" style="color: black">
+				<td width="300" bgcolor="pink"><b>JIHYO</b></td>
+				<td width="300" bgcolor="pink"><b>MOMO</b></td>
+				<td width="300" bgcolor="pink"><b>JEONGYEON</b></td>
+			</tr>
+						<tr align="center" height="50" style="color: black">
+				<td><a href="#"><img src="Dahyun.jpeg" style="width:200px;height:140px;"></a></td>
+				<td><a href="#"><img src="Nayeon.jpeg" style="width:200px;height:140px;"></a></td>
+				<td><a href="#"><img src="Sana.jpeg" style="width:200px;height:140px;"></a></td>
+			</tr>
+			<tr align="center" style="color: black">
+				<td width="300" bgcolor="pink"><b>DAHYUN</b></td>
+				<td width="300" bgcolor="pink"><b>NAYEON</b></td>
+				<td width="300" bgcolor="pink"><b>SANA</b></td>
+			</tr>
+	
+</table>
+	</div>
+		<div class="rightcorner">
+		<table>
+			<tr>
+				<td colspan="2"><left><h2>TWICE Official Accounts:</h2></left></td>
+			</tr>
+			<tr>
+				<td style="color: white"><center><button><b>Official Website</b></button></center></td>
+			</tr>
+			<tr>
+				<td style="color: white"><center><button><b>Official Website (Japan)</b></button></center></td>
+			</tr>
+			<tr>
+				<td style="color: white"><center><button><b>Twitter</b></button></center></td>
+			</tr>
+			<tr>
+				<td style="color: white"><center><button><b>Twitter (Japan)</b></button></center></td>
+			</tr>
+			<tr>
+				<td style="color: white"><center><button><b>Instagram (Japan)</b></button></center></td>
+			</tr>
+			<tr>
+				<td style="color: white"><center><button><b>Facebook</b></button></center></td>
+			</tr><tr>
+				<td style="color: white"><center><button><b>Youtube</b></button></center></td>
+			</tr>	
+			<tr>
+				<td style="color: white"><center><button><b>Youtube (Japan)</b></button></center></td>
+			</tr>
+			<tr>
+				<td style="color: white"><center><button><b>Fan Cafe</b></button></center></td>
+			</tr>
+			<tr>
+				<td style="color: white"><center><button><b>V Live</b></button></center></td>
+			</tr>
+			<tr>
+				<td style="color: white"><center><button><b>TikTok</b></button></center></td>
+			</tr>
+			<tr>
+				<td style="color: white"><center><button><b>TikTok (Japan)</b></button></center></td>
+			</tr>
+		</table>
+	</div>
+	<div class="footer">
+		<center>
+			<font face="calibri" size="2" color="#fff">Copyright © 2020. Activity # 2, Designed by Marian Daradar</font>
+		</center>
+	</div>	
+</body>
+</html>
